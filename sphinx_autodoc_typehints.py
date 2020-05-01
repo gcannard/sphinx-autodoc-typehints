@@ -5,7 +5,7 @@ import typing
 from typing import get_type_hints, TypeVar, Any, AnyStr, Tuple
 
 from sphinx.util import logging
-from sphinx.util.inspect import Signature
+from sphinx.util.inspect import signature as Signature
 
 logger = logging.getLogger(__name__)
 pydata_annotations = {'Any', 'AnyStr', 'Callable', 'ClassVar', 'Literal', 'NoReturn', 'Optional',
